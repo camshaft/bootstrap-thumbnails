@@ -1,5 +1,5 @@
 
-build: components bootstrap-thumbnails.css bootstrap-thumbnails.js
+build: components bootstrap-thumbnails.css
 	@component build --dev
 
 bootstrap-thumbnails.css: bootstrap-thumbnails.less
